@@ -6,11 +6,11 @@ import moment from "moment-timezone"
 
 /*Oᴡɴᴇʀ number*/
 global.owner = [
-  ["6285380166282"],
-  ["6285380166282", "️𝐎𝐰𝐧𝐞𝐫", true]
+  ["62895406419364"],
+  ["62895406419364", "️𝐎𝐰𝐧𝐞𝐫", true]
 ]
-global.mods = ["6285380166282"]
-global.prems = ["6285380166282"]
+global.mods = ["62895406419364"]
+global.prems = ["62895406419364"]
 
 /*Website*/
 global.APIs = {
@@ -68,19 +68,19 @@ HIRO
 */
 
 /*Number*/
-global.nomorbot = "6285380166282"
-global.nomorown = "6285380166282"
-global.namebot = "𝙼𝚊𝚡𝚡𝚢 𝙵𝚝 𝙱𝚎𝚊𝚝𝚛𝚒𝚡"
-global.nameown = "「 𝙆𝙖𝙝𝙛𝙞 𝙊𝙛𝙛𝙞𝙘𝙞𝙖𝙡 」"
+global.nomorbot = "6285794583615"
+global.nomorown = "62895406419364"
+global.namebot = "Kurama"
+global.nameown = "「 Agung 」"
 
 /* Random */
 global.pmenus = pickRandom(["◈","➭","ଓ","⟆•","⳻⳻","•","↬","◈▻","⭑","ᯬ","◉","᭻","»","〆","々","⛥","✗","⚜","⚚","♪"])
 global.htjava = pickRandom(["⛶","❏","⫹⫺","☰","⎔","✦","⭔","⬟","⛊","⚝"])
 
 /*Watermark*/
-global.wm = "                「 Maxxy Botz あ⁩ 」"
+global.wm = "                「 Kurama Botz あ⁩ 」"
 global.wm2 = "꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘օառɛʀ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷"
-global.wm3 = htjava + "𝙼𝚊𝚡𝚡𝚢 𝙱𝚘𝚝𝚣"
+global.wm3 = htjava + "Kurama 𝙱𝚘𝚝𝚣"
 global.botdate = `${htjava} Date :  ${moment.tz("Asia/Jakarta").format("DD/MM/YY")}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz("Asia/Jakarta").format("HH:mm:ss")}`
 global.titlebot = `${htjava} Time Sever : ${moment.tz("Asia/Jakarta").format("HH:mm:ss")}\n⫹⫺ Date Server :  ${moment.tz("Asia/Jakarta").format("DD/MM/YY")}`
@@ -213,7 +213,7 @@ global.cmenua = "\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙
 global.emojis = pickRandom(["👑", "🎗", "️🗿", "🕹", "️💡", "🪄", "🎈", "🎊", "🔖", "📍", "❤", "‍🔥", "💤", "💭", "🕚", "💬", "🚩", "🎐", "🍃", "🌿", "🥀", "✨", "⚡", "☂️"])
 global.packname = "𝗠𝗮𝗱𝗲 𝗕𝘆"
 global.stickpack = packname
-global.author = "𝙈𝙖𝙭𝙭𝙮 乂 𝙆𝙖𝙝𝙛𝙞"
+global.author = "Kurama 乂 Agung"
 global.stickauth = author + "\nwa.me/" + nomorbot
 global.multiplier = 69
 
@@ -225,18 +225,18 @@ global.webs = "https://lynk.id/kahfi.xd"
 global.gcwangsaf = "https://chat.whatsapp.com/Ib4JOndTWQmGBSsPGWmIup"
 
 /*Donasi*/
-global.saweria = "https://saweria.co/MaxxyBotz"
-global.dana = "085380166282"
-global.pulsa = "085295374964"
+global.saweria = "-"
+global.dana = "0895406419364"
+global.pulsa = "0895406419364"
 global.trakteer = "-"
 global.paypal = "-"
 global.gopay = "-"
-global.pdana = "085380166282"
+global.pdana = "-"
 global.povo = "-"
 global.pgopay = "-"
-global.ppulsa = "085380166282"
-global.ppulsa2 = "085380166282"
-global.psaweria = "https://saweria.co/MaxxyBotz"
+global.ppulsa = "-"
+global.ppulsa2 = "-"
+global.psaweria = "-"
 
 /* Fake adReplyS*/
 		global.adReplyS = {
