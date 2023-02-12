@@ -16,16 +16,10 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 const require = createRequire(__dirname) // Bring in the ability to create the 'require' method
 const { name, author } = require(join(__dirname, './package.json')) // https://www.stefanjudis.com/snippets/how-to-import-json-files-in-es-modules-node-js/
 
-say('HinataBot', {
-  font: 'shade',
-  align: 'center',
-  colors: ['red', 'yellow']
-})
-say('🐾 RPG BOT Multi-Device HinataBot', {
-  font: 'console',
-  align: 'center',
-  colors: ['green']
-})
+require("http").createServer((_, res) => res.end("Uptime!")).listen(8080)
+
+say('Bot Whatsapp MD', { font: 'chrome', align: 'center', gradient: ['blue', 'green'] })
+say(`'AMELIA BOTZ' By PUTRAMODZ`, { font: 'console', align: 'center', gradient: ['blue', 'green'] })
 
 var isRunning = false
 /**
@@ -36,30 +30,8 @@ function start(file) {
   if (isRunning) return
   isRunning = true
   let args = [join(__dirname, file), ...process.argv.slice(2)]
-  say([process.argv[0], ...args].join(' '), {
-    font: 'console',
-    align: 'center',
-    colors: ['magenta']
-  })
-  say('🌎 MEMUAT SOURCE...', {
-    font: 'console',
-    align: 'center',
-    colors: ['red']
-  })
-  say('📑 MEMUAT PLUGINS...', {
-    font: 'console',
-    align: 'center',
-    colors: ['yellow']
-  })
-  say('✅ DONE !', {
-    font: 'console',
-    align: 'center',
-    colors: ['green']
-  })
-  setupMaster({
-    exec: args[0],
-    args: args.slice(1),
-  })
+  say([process.argv[0], ...args].join(' '), { font: 'console', align: 'center', gradient: ['red', 'magenta'] })
+  setupMaster({ exec: args[0], args: args.slice(1) })
   let p = fork()
   p.on('message', data => {
     console.log('[✅RECEIVED]', data)
@@ -92,4 +64,3 @@ function start(file) {
 }
 
 start('main.js')
-require("http").createServer((_, res) => res.end("Uptime!")).listen(8080)
